@@ -2,7 +2,7 @@ use dotenvy::dotenv;
 use reqwest::Client;
 use std::env;
 use std::fs::{self, File};
-use std::io::{copy};
+use std::io::copy;
 use std::path::Path;
 use thirtyfour::prelude::*;
 use tokio;
