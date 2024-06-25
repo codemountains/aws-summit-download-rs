@@ -1,0 +1,11 @@
+[package]
+name = "aws-summit-download-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15.7"
+reqwest = { version = "0.12.5", features = ["stream"] }
+thirtyfour = "0.32.0"
+tokio = { version = "1", features = ["full"] }
+url = "2.3"
